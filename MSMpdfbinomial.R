@@ -4,7 +4,7 @@
 # Quantlet:    MSMpdfbinomial
 # ------------------------------------------------------------------------------
 # Description: It plots three PDFs of the Binomial distribution with different
-#			   probabilities of success (p) in each trial. The number of trials
+#              probabilities of success (p) in each trial. The number of trials
 #              is set to 20. The line colours correspond to p = 0.1 (blue),
 #              p = 0.5 (green) and p = 0.8 (dark red).     
 # ------------------------------------------------------------------------------
@@ -12,7 +12,7 @@
 # ------------------------------------------------------------------------------
 # Inputs:    None
 # ------------------------------------------------------------------------------
-# Output: 	 Plot of PDF of binomial distribution
+# Output:    Plot of PDF of binomial distribution
 # ------------------------------------------------------------------------------
 # Keywords:  pdf, binomial, distribution, parameters,
 #            visualization, plot, discrete
