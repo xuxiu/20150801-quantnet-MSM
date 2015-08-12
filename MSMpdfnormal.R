@@ -4,7 +4,7 @@
 # Quantlet:     MSMpdfnormal
 # ------------------------------------------------------------------------------
 # Description:  Simulates data from the standard normal distribution N(0,1) 
-#               and then plots the PDF function.
+#               and then plots the PDF (probability density function).
 # ------------------------------------------------------------------------------
 # Keywords:     simulation, pdf, plot, normal, standard, normal-distribution, distribution, density, standard normal,
 #               random-number-generation, univariate, gauss, gaussian, continuous
@@ -13,7 +13,6 @@
 # ------------------------------------------------------------------------------
 # Author:       Xiu Xu 20150603
 # ------------------------------------------------------------------------------
-
 
 graphics.off()
 rm(list = ls()) # remove variable definitions
