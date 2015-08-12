@@ -1,9 +1,10 @@
 # ------------------------------------------------------------------------------
-# Course: MSM - Selected Topics of Mathematical Statistics
+# Course:       MSM - Selected Topics of Mathematical Statistics
 # ------------------------------------------------------------------------------
-# Quantlet: MSMpdfnormal
+# Quantlet:     MSMpdfnormal
 # ------------------------------------------------------------------------------
-# Description: plot  pdf, standard normal 
+# Description:  It simulates data from the standard normal distribution N(0,1) 
+#               and then plots the PDF funtion.
 # ------------------------------------------------------------------------------
 # Usage: 
 # ------------------------------------------------------------------------------
@@ -11,19 +12,17 @@
 # ------------------------------------------------------------------------------
 # Output: 
 # ------------------------------------------------------------------------------
-# Keywords:  pdf, standard normal    
+# Keywords:     simulation, pdf, plot, normal, standard, normal-distribution,
+#               distribution,
 # ------------------------------------------------------------------------------ 
-# See also:  MSMcdfnormal    
+# See also:     MSMcdfnormal, MSMpdfbinomial    
 # ------------------------------------------------------------------------------
-# Author:    Xiu Xu 20150603
+# Author:       Xiu Xu 20150603
 # ------------------------------------------------------------------------------
 
 
 graphics.off()
-rm(list=ls()) #remove variable definitions
-
-getwd()
-setwd("")
+rm(list = ls()) #remove variable definitions
 
 n = 100
 set.seed(80)
@@ -34,4 +33,3 @@ name=paste("Fig_MSMpdfnormal",".pdf",sep="")
 pdf(name)
 plot(seq(-4,4,0.2), dnorm(seq(-4,4,0.2),0,1), col="blue", type="l", lwd=2.5, ylab="PDF", xlab="X")
 abline(v=0)
-dev.off()
